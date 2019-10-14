@@ -117,6 +117,7 @@ export function traverseNode(
 ```
 ### createStructuralDirectiveTransform
 > 创建结构化指令
+> v-for,v-if
 ```ts
 export function createStructuralDirectiveTransform(
   name: string | RegExp,
