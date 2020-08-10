@@ -94,20 +94,19 @@ function getSelection(
 - 读取当前解析的文本内容
 
 ## parseInterpolation()
-```json
-
-function parseInterpolation(
-  context: ParserContext,
-  mode: TextModes
-): InterpolationNode | undefined   
-{}
-
-```
-
 - 解析插入语句
 
 ## parseElement() 
-      
+- 解析元素
 
+## parseTag()
+- 解析开始标签      
 
-  
+## parseAttributes()
+- 解析属性
+
+## parseAttribute()
+- 解析单个属性  
+
+## parseAttributeValue()
+- 解析单个属性的值
